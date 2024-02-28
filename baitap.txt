@@ -1,0 +1,20 @@
+cau 1 : c
+cau 2 : d
+cau 3 : c
+cau 4 : b
+cau 5 : a
+cau 6 : b
+cau 7 : c
+cau 8 : a,b,c
+cau 9 : d
+cau 10: b
+cau 11: c
+cau 12: d
+cau 13:b
+cau 14:d
+cau 15:a
+cau 16:c
+cau 17:c
+cau 18:d
+cau 19:c
+cau 20:b
