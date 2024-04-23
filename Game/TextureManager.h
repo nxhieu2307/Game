@@ -1,7 +1,8 @@
 #ifndef _TEXTUREMANAGER__H
 #define _TEXTUREMANAGER__H
 
-#include"GameLoop.h"
+#include<SDL.h>
+#include<SDL_image.h>
 
 class TextureManager
 {

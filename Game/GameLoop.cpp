@@ -1,11 +1,15 @@
-
-
-#include "GameLoop.h"
+#include"GameLoop.h"
 
 GameLoop::GameLoop()
 {
     window = NULL;
     renderer = NULL;
+    GameState = false;
+    // source dimension
+    p.setSrc(0,0,34,24);
+
+    // Destination dimension
+    p.setDest(10,20,34,24);
 }
 
 
@@ -36,9 +40,8 @@ void GameLoop::Init()
 
     if(renderer)
     {
-        //cout << "OK";
         GameState = true;
-        player = TextureManager::Texture("img/bird.png", renderer);
+        p.CreateTexture("img/bird.png" , renderer);
         background = TextureManager::Texture("img/background.png" , renderer);
     }
 }
@@ -55,16 +58,7 @@ void GameLoop::Event()
 
 void GameLoop::Update()
 {
-    // source dimension
-    srcPlayer.h = 24;
-    srcPlayer.w = 34;
-    srcPlayer.x = srcPlayer.y = 0;
 
-    // Destination dimension
-    destPlayer.w = 24;
-    destPlayer.h = 34;
-    destPlayer.x = 10;
-    destPlayer.y++;
 
     srcbackground.h = 600;
     srcbackground.w = 800;
@@ -75,8 +69,7 @@ void GameLoop::Render()
 
     SDL_RenderClear(renderer);
     SDL_RenderCopy(renderer, background , &srcbackground , &srcbackground);
-    SDL_RenderCopy(renderer, player, &srcPlayer , &destPlayer);
-
+	p.Render(renderer);
     SDL_RenderPresent(renderer);
 }
 
