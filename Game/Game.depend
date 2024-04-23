@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1713796801 source:c:\users\sumai\onedrive\documents\github\game\game\main.cpp
+	"gameloop.h"
+
+1713886886 c:\users\sumai\onedrive\documents\github\game\game\gameloop.h
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManager.h"
+	<bits/stdc++.h>
+
+1713886990 source:c:\users\sumai\onedrive\documents\github\game\game\gameloop.cpp
+	"GameLoop.h"
+
+1713608239 c:\users\sumai\onedrive\documents\github\game\game\texturemanager.h
+	"GameLoop.h"
+
+1713608624 source:c:\users\sumai\onedrive\documents\github\game\game\texturemanager.cpp
+	"TextureManager.h"
+
