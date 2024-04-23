@@ -42,7 +42,7 @@ void GameLoop::Init()
     {
         GameState = true;
         p.CreateTexture("img/bird.png" , renderer);
-        background = TextureManager::Texture("img/background.png" , renderer);
+        background = TextureManager::Texture("img/backgroundd.png" , renderer);
     }
 }
 

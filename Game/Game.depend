@@ -2,14 +2,15 @@
 1713796801 source:c:\users\sumai\onedrive\documents\github\game\game\main.cpp
 	"gameloop.h"
 
-1713897858 c:\users\sumai\onedrive\documents\github\game\game\gameloop.h
+1713901972 c:\users\sumai\onedrive\documents\github\game\game\gameloop.h
 	<SDL.h>
 	<SDL_image.h>
 	"TextureManager.h"
-	"Player.h"
+	"Background.h"
+	"aPlayer.h"
 	<bits/stdc++.h>
 
-1713896415 source:c:\users\sumai\onedrive\documents\github\game\game\gameloop.cpp
+1713901652 source:c:\users\sumai\onedrive\documents\github\game\game\gameloop.cpp
 	"GameLoop.h"
 
 1713894059 c:\users\sumai\onedrive\documents\github\game\game\texturemanager.h
@@ -28,7 +29,7 @@
 1713896013 source:c:\users\sumai\onedrive\documents\github\game\game\object.cpp
 	"Object.h"
 
-1713898067 source:c:\users\sumai\onedrive\documents\github\game\game\background.cpp
+1713901869 source:c:\users\sumai\onedrive\documents\github\game\game\background.cpp
 	"Background.h"
 
 1713898160 c:\users\sumai\onedrive\documents\github\game\game\background.h
@@ -36,4 +37,7 @@
 
 1713896352 source:c:\users\sumai\onedrive\documents\github\game\game\player.cpp
 	"Player.h"
+
+1713898141 c:\users\sumai\onedrive\documents\github\game\game\aplayer.h
+	"Object.h"
 

@@ -4,16 +4,17 @@
 #include<SDL.h>
 #include<SDL_image.h>
 #include"TextureManager.h"
+#include"Background.h"
 #include"Player.h"
-//#include"Background.h"
+
 #include<bits/stdc++.h>
 using namespace std;
 class GameLoop
 {
 private:
-
+    Background b;
     Player p;
-    //Background b;
+
     const int HEIGHT = 600;
     const int WIDTH = 800;
     bool GameState;
